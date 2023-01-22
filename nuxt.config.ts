@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   srcDir: "src/",
   css: ["vuetify/lib/styles/main.sass", "@/assets/css/main.scss"],
   build: {
-    transpile: ["vuetify"],
+    transpile: ["vuetify",'nuxt-icon'],
   },
   vite: {
     define: {
